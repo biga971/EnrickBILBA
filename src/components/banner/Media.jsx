@@ -15,9 +15,9 @@ const Media = () => {
             <span className="bannerIcon">
               <FaTwitter />
             </span> */}
-            <span className="bannerIcon">
+            <a className="bannerIcon" href="https://www.linkedin.com/in/enrick-bilba-9910bb20a/">
               <FaLinkedinIn />
-            </span>
+            </a>
           </div>
         </div>
         <div>
@@ -29,7 +29,7 @@ const Media = () => {
               <FaReact />
             </span>
             <span className="bannerIcon">
-              <SiFirebase />
+              <SiNextdotjs/>
             </span>
             <span className="bannerIcon">
               <SiGooglecloud />
