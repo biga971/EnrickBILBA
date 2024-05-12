@@ -1,43 +1,25 @@
 import { AiFillAppstore } from "react-icons/ai";
 import { FaMobile, FaGlobe} from "react-icons/fa";
-import { SiProgress, SiAntdesign } from "react-icons/si";
 
 // Features Data
 export const featuresData = [
- /*  {
-    id: 1,
-    title: "Business Stratagy",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
-  }, */
   {
-    id: 2,
+    id: 1,
     icon: <AiFillAppstore />,
     title: "Développement d'App ",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    des: "Je développe des applications web robustes et performantes avec Next.js et React.",
   },
- /*  {
-    id: 3,
-    icon: <SiProgress />,
-    title: "SEO Optimisation",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
-  }, */
   {
-    id: 4,
+    id: 2,
     icon: <FaMobile />,
     title: "Développement Mobile",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    des: "Je développe des applications mobile de qualitées avec React Native.",
   },
-  /* {
-    id: 5,
-    icon: <SiAntdesign />,
-    title: "UX Design",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
-  }, */
   {
-    id: 6,
+    id: 3,
     icon: <FaGlobe />,
     title: "Déploiement de sites",
-    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+    des: "Je déploie des sites web et des API sur le cloud en utilisant GCP, AWS, Heroku et Vercel.",
   },
 ];
 
@@ -48,24 +30,17 @@ export const Diplome = [
     title: "Master MIAGE",
     subTitle: "Université des Antilles 2023",
     result: "Obtenu",
-    des: "",    
-  },/* 
+    des: "J'ai obtenu un Master Méthodes Informatiques Appliquées à la Gestion des Entreprises avec la mention assez-bien.",    
+  },
   {
     id: 2,
-    title: "Licence MIAGE",
-    subTitle: "Université des Antilles 2021",
-    result: "Obtenu",
-    des: "",  
-  },*/ 
-  {
-    id: 3,
     title: "DEUG Mathématiques",
     subTitle: "Université des Antilles 2020",
     result: "Obtenu",
     des: "",  
   },
   {
-    id: 4,
+    id: 3,
     title: "BAC Scientifique spécialité Mathématique",
     subTitle: "Lycée Jardin d'essai 2014",
     result: "Obtenu",
@@ -80,7 +55,7 @@ export const Experience = [
     title: "Ingénieur Developpement",
     subTitle: "Ingénieur Developpement à Orange Carïbes (2021 - 2023)",
     result: "Guadeloupe",
-    des: "Devops Google Cloud Platform",    
+    des: "Accompagner la migration vers le cloud en créant une IHM en Angular ainsi que des API en Node.js, Flask et Spring, en les dockerisant, et en établissant des pipelines de déploiement via GitLab et Terraform, pour les déployer sur GCP.",    
   },
   {
     id: 2,
@@ -110,12 +85,12 @@ export const SkillOne = [
   {
     id: 4,
     title: "TypeScript",
-    percentage: "80%", 
+    percentage: "85%", 
   },
   {
     id: 5,
     title: "TailWinds",
-    percentage: "80%", 
+    percentage: "85%", 
   },
   
 ];

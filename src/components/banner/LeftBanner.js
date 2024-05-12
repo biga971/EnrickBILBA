@@ -1,17 +1,10 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Media from './Media';
-import Reveal from '../reveal';
 import HomeReveal from '../reveal/homeReveal';
 
 const LeftBanner = () => {
-  var largeur = window.innerWidth;
-  const words = [""]
-  if (largeur < 500 ) {
-    words.push("Dev Full Stack.", "Dev Mobile.", "DevOps.")
-  }else{
-    words.push("Full Stack.", "Mobile.", "DevOps.")
-  }
+  const words = ["Full Stack.", "Mobile."]
     const [text] = useTypewriter({
       words: words,
       loop: true,
@@ -25,10 +18,10 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">Bienvenue sur mon Portfolio </h4>
         <h1 className="text-6xl font-bold text-white">
-          {/* Je suis  */}<span className="text-designColor capitalize">Enrick BILBA</span> 
+          <span className="text-designColor capitalize">Enrick BILBA</span> 
         </h1>
         <h2 className="text-4xl font-bold text-white">
-         {/*  un */} Développeur <span>{text}</span>
+          Développeur <span>{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
@@ -36,15 +29,15 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+          Je suis un développeur Full Stack spécialisé dans les technologies 
+          Next.js, React, React Native et Node.js. 
+          Passionné par le développement web et mobile, je maîtrise les 
+          outils nécessaires pour concevoir 
+          des solutions innovantes et performantes.
         </p>
       </div>
     </HomeReveal>
-    
-      
-     {/* Media */}
+
      <HomeReveal delay={0.75}>
       <Media />
      </HomeReveal>
